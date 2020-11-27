@@ -3,8 +3,8 @@ const sequelize = require('../sequelize');
 const SportHall = require('./SportHall');
 const Customer = require('./Customer');
 
-const SportHallCustomer = sequelize.define('sportHallCustomer', {
-    id_sportHall: {
+const SportHallCustomer = sequelize.define('sport_hall_customer', {
+    id_sport_hall: {
         type: DataTypes.INTEGER,
         primaryKey: true,
         references: {

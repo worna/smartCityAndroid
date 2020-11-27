@@ -7,19 +7,19 @@ const Customer = sequelize.define('customer', {
         autoIncrementIdentity: true,
         primaryKey: true
     },
-    firstName: {
+    first_name: {
         type: DataTypes.STRING
     },
-    lastName: {
+    last_name: {
         type: DataTypes.STRING
     },
-    birthDate: {
+    birth_date: {
         type: DataTypes.DATE
     },
     gender: {
         type: DataTypes.INTEGER
     },
-    phoneNumber: {
+    phone_number: {
         type: DataTypes.STRING
     },
     email: {
@@ -28,13 +28,13 @@ const Customer = sequelize.define('customer', {
     password: {
         type: DataTypes.STRING
     },
-    inscriptionDate: {
+    inscription_date: {
         type: DataTypes.DATE
     },
-    isManager: {
+    is_manager: {
         type: DataTypes.INTEGER
     },
-    isInstructor: {
+    is_instructor: {
         type: DataTypes.INTEGER
     },
     language: {

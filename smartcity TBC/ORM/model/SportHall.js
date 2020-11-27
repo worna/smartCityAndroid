@@ -3,7 +3,7 @@ const sequelize = require('../sequelize');
 const Customer = require('./Customer');
 
 
-const SportHall = sequelize.define('sportHall', {
+const SportHall = sequelize.define('sport_hall', {
     id: {
         type: DataTypes.INTEGER,
         autoIncrementIdentity: true,
@@ -20,7 +20,7 @@ const SportHall = sequelize.define('sportHall', {
             deferrable: Deferrable.INITIALLY_IMMEDIATE
         },
     },
-    phoneNumber:{
+    phone_number:{
         type: DataTypes.STRING
     },
     email:{

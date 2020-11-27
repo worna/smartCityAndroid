@@ -9,7 +9,7 @@ const Course = sequelize.define('course', {
         autoIncrementIdentity: true,
         primaryKey: true,
     },
-    id_sportHall: {
+    id_sport_hall: {
         type: DataTypes.INTEGER,
         references: {
             model: SportHall,
@@ -17,10 +17,10 @@ const Course = sequelize.define('course', {
             deferrable: Deferrable.INITIALLY_IMMEDIATE
         },
     },
-    startingDateTime: {
+    starting_date_time: {
         type: DataTypes.DATE
     },
-    endingDateTime: {
+    ending_date_time: {
         type: DataTypes.DATE
     },
     level: {
