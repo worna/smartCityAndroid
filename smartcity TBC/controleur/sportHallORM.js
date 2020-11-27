@@ -1,4 +1,7 @@
 const SportHallORM = require('../ORM/model/SportHall');
+const CustomerORM = require ('../ORM/model/Customer');
+const sequelize = require("../ORM/sequelize");
+const {Sequelize} = require("sequelize");
 
 module.exports.getSportHall = async (req, res) => {
     const idTexte = req.params.id;
@@ -22,28 +25,52 @@ module.exports.getSportHall = async (req, res) => {
 
 module.exports.postSportHall = async (req, res) => {
     const body = req.body;
-    const {name, manager, phoneNumber, email} = body;
+    const {name, manager, phone_number, email} = body;
     try{
+        await sequelize.transaction( {
+            deferrable:  Sequelize.Deferrable.SET_DEFERRED
+        }, async (t) => {
+        const managerDB = await CustomerORM.findOne({where: {id: manager}});
+        if(managerDB === null){
+            throw new Error("Manager id not valid");
+        }
         await SportHallORM.create({
             name,
             manager,
-            phoneNumber,
-            email
+            phone_number,
+            email,
+        }, {transaction: t});
+
         });
         res.sendStatus(201);
     } catch (error){
-        console.log(error);
+        if(error.message === "Manager id not valid"){
+            res.status(404).json({error: "The manager id is not valid"});
+        }else{
         res.sendStatus(500);
+        }
     }
 }
 
 module.exports.updateSportHall = async (req, res) => {
-    const {id, name, manager, phoneNumber, email,} = req.body;
+    const {id, name, manager, phone_number, email,} = req.body;
     try{
-        await SportHallORM.update({ name, manager, phoneNumber, email}, {where: {id}});
+        await sequelize.transaction( {
+            deferrable:  Sequelize.Deferrable.SET_DEFERRED
+        }, async (t) => {
+        const managerDB = await CustomerORM.findOne({where: {id: manager}});
+        if(managerDB === null){
+            throw new Error("Manager id not valid");
+        }
+        await SportHallORM.update({ name, manager, phone_number, email}, {where: {id}}, {transaction: t});
+        });
         res.sendStatus(204);
     } catch (error){
+        if(error.message === "Manager id not valid"){
+            res.status(404).json({error: "The manager id is not valid"});
+        }else{
         res.sendStatus(500);
+        }
     }
 }
 

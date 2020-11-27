@@ -34,7 +34,7 @@ INSERT INTO sport_hall (name, manager, phone_number, email) VALUES
 
 DROP TABLE IF EXISTS sport_hall_customer CASCADE;
 CREATE TABLE sport_hall_customer (
-    id_sportHall integer REFERENCES sport_hall(id) DEFERRABLE INITIALLY IMMEDIATE,
+    id_sport_hall integer REFERENCES sport_hall(id) DEFERRABLE INITIALLY IMMEDIATE,
     id_customer integer REFERENCES customer(id) DEFERRABLE INITIALLY IMMEDIATE,
     PRIMARY KEY(id_sport_hall, id_customer)
 );

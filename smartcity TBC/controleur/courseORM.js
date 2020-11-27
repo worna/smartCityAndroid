@@ -27,27 +27,27 @@ module.exports.getCourse = async (req, res) => {
 
 module.exports.postCourse = async (req, res) => {
     const body = req.body;
-    const {sportHall, startingDateTime, endingDateTime, level, activity, room, instructor} = body;
+    const {id_sport_hall, starting_date_time, ending_date_time, level, activity, room, id_instructor} = body;
     try{
         await sequelize.transaction( {
             deferrable:  Sequelize.Deferrable.SET_DEFERRED
         }, async (t) => {
-        const sportHallDB = await SportHallORM.findOne({where: {id: sportHall}});
+        const sportHallDB = await SportHallORM.findOne({where: {id: id_sport_hall}});
         if(sportHallDB === null){
             throw new Error("Sport hall id not valid");
         }
-        const customerDB = await CustomerORM.findOne({where: {id: instructor}});
+        const customerDB = await CustomerORM.findOne({where: {id: id_instructor}});
         if(customerDB === null){
             throw new Error("Instructor id not valid");
         }
         await CourseORM.create({
-            id_sportHall: sportHall,
-            startingDateTime,
-            endingDateTime,
+            id_sport_hall,
+            starting_date_time,
+            ending_date_time,
             level,
             activity,
             room,
-            id_instructor: instructor,
+            id_instructor,
         }, {transaction: t});
 
         });
@@ -65,12 +65,31 @@ module.exports.postCourse = async (req, res) => {
 }
 
 module.exports.updateCourse = async (req, res) => {
-    const {id, sportHall, startingDateTime, endingDateTime, level, activity, room, instructor} = req.body;
+    const {id, id_sport_hall, starting_date_time, ending_date_time, level, activity, room, id_instructor} = req.body;
     try{
-        await CourseORM.update({sportHall, startingDateTime, endingDateTime, level, activity, room, instructor}, {where: {id}});
+        await sequelize.transaction( {
+            deferrable:  Sequelize.Deferrable.SET_DEFERRED
+        }, async (t) => {
+        const sportHallDB = await SportHallORM.findOne({where: {id: id_sport_hall}});
+        if(sportHallDB === null){
+            throw new Error("Sport hall id not valid");
+        }
+        const customerDB = await CustomerORM.findOne({where: {id: id_instructor}});
+        if(customerDB === null){
+            throw new Error("Instructor id not valid");
+        }
+        await CourseORM.update({id_sport_hall, starting_date_time, ending_date_time, level, activity, room, id_instructor}, {where: {id}}, {transaction: t});
+        });
         res.sendStatus(204);
     } catch (error){
-        res.sendStatus(500);
+         if(error.message === "Sport hall id not valid"){
+            res.status(404).json({error: "The sport hall id is not valid"});
+        }else if(error.message === "Instructor id not valid"){
+            res.status(404).json({error: "The instructor id is not valid"});
+        } else{
+            console.log(error);
+            res.sendStatus(500);
+        }
     }
 }
 
