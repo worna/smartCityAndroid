@@ -17,8 +17,8 @@ module.exports.getCourse = (req, res) => {
 
 module.exports.postCourse = (req, res) => {
     const body = req.body;
-    const {id, startingDateTime, endingDateTime, level, activity, room} = body;
-    const reponse = CourseModele.postCourse(id, startingDateTime, endingDateTime, level, activity, room);
+    const {id, sportHall, startingDateTime, endingDateTime, level, activity, room, instructor} = body;
+    const reponse = CourseModele.postCourse(id, sportHall, startingDateTime, endingDateTime, level, activity, room, instructor);
     if(reponse) {
         res.sendStatus(201);
     } else {

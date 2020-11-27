@@ -22,12 +22,12 @@ DROP TABLE IF EXISTS sportHall CASCADE;
 CREATE TABLE sportHall (
     id integer PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
     name varchar,
-    id_manager integer REFERENCES customer(id) DEFERRABLE INITIALLY IMMEDIATE,
+    manager integer,
     phoneNumber varchar,
     email varchar
 );
 
-INSERT INTO sportHall (name, id_manager, phoneNumber, email) VALUES
+INSERT INTO sportHall (name, manager, phoneNumber, email) VALUES
 ('Jims', 1, '0123456789', 'lodsqz@udi.com'),
 ('Basic fit', 2, '7894561230', 'mail@hotmail.com'),
 ('aaaa', 1, '145236987', '12344598');
@@ -38,3 +38,20 @@ CREATE TABLE sportHallCustomer (
     id_customer integer REFERENCES customer(id) DEFERRABLE INITIALLY IMMEDIATE,
     PRIMARY KEY(id_sportHall, id_customer)
 );
+
+DROP TABLE IF EXISTS course CASCADE;
+CREATE TABLE course (
+    id SERIAL,
+    id_sportHall integer REFERENCES sportHall(id) DEFERRABLE INITIALLY IMMEDIATE,
+    startingDateTime DATE,
+    endingDateTime Date,
+    level VARCHAR,
+    activity VARCHAR,
+    room VARCHAR,
+    id_instructor integer REFERENCES customer(id) DEFERRABLE INITIALLY IMMEDIATE ,
+    PRIMARY KEY(id_sportHall, id)
+);
+INSERT INTO course (id_sportHall, startingDateTime, endingDateTime, level, activity, room, id_instructor) VALUES
+    (1, '2020-11-24', '2020-11-24', 'A voir si on a des problèmes', 'Développement de client Web avancé', 'A distance', 2),
+    (1, '2020-11-23', '2020-11-24', 'Facile', 'HIP HOP', 'salle bleue', 2),
+    (3, '2020-11-24', '2020-11-24', 'Enfant (10-14)', 'Break', 'salle n°2', 1);

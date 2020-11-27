@@ -1,4 +1,4 @@
-const SportHallCustomerControleur = require("../controleur/sportHallCustomerDB");
+const SportHallCustomerControleur = require("../controleur/sportHallCustomerORM");
 
 const Router = require("express-promise-router");
 const router = new Router;

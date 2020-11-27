@@ -1,4 +1,4 @@
-const SportHallORM = require('../ORM/model/SportHallORM');
+const SportHallORM = require('../ORM/model/SportHall');
 
 module.exports.getSportHall = async (req, res) => {
     const idTexte = req.params.id;
@@ -15,6 +15,7 @@ module.exports.getSportHall = async (req, res) => {
             }
         }
     } catch (error){
+        res.send(error.toString());
         res.sendStatus(500);
     }
 }
@@ -36,40 +37,10 @@ module.exports.postSportHall = async (req, res) => {
     }
 }
 
-module.exports.updateName = async (req, res) => {
-    const {id, name} = req.body;
+module.exports.updateSportHall = async (req, res) => {
+    const {id, name, manager, phoneNumber, email,} = req.body;
     try{
-        await SportHallORM.update({name}, {where: {id}});
-        res.sendStatus(204);
-    } catch (error){
-        res.sendStatus(500);
-    }
-}
-
-module.exports.updateManager = async (req, res) => {
-    const {id, manager} = req.body;
-    try{
-        await SportHallORM.update({manager}, {where: {id}});
-        res.sendStatus(204);
-    } catch (error){
-        res.sendStatus(500);
-    }
-}
-
-module.exports.updatePhoneNumber = async (req, res) => {
-    const {id, phoneNumber} = req.body;
-    try{
-        await SportHallORM.update({phoneNumber}, {where: {id}});
-        res.sendStatus(204);
-    } catch (error){
-        res.sendStatus(500);
-    }
-}
-
-module.exports.updateEmail = async (req, res) => {
-    const {id, email} = req.body;
-    try{
-        await SportHallORM.update({email}, {where: {id}});
+        await SportHallORM.update({ name, manager, phoneNumber, email}, {where: {id}});
         res.sendStatus(204);
     } catch (error){
         res.sendStatus(500);

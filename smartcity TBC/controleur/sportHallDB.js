@@ -37,50 +37,11 @@ module.exports.postSportHall = async (req, res) => {
     }
 }
 
-module.exports.updateName = async (req, res) => {
+module.exports.updateSportHall = async (req, res) => {
+    const {id, name, manager, phoneNumber, email} = req.body;
     const client = await pool.connect();
-    const {id, name} = req.body;
     try{
-        await SportHallModele.updateName(id, name, client);
-        res.sendStatus(204);
-    }catch (error){
-        res.sendStatus(500);
-    } finally {
-        client.release();
-    }
-}
-
-module.exports.updateManager = async (req, res) => {
-    const client = await pool.connect();
-    const {id, manager} = req.body;
-    try{
-        await SportHallModele.updateManager(id, manager, client);
-        res.sendStatus(204);
-    }catch (error){
-        res.sendStatus(500);
-    } finally {
-        client.release();
-    }
-}
-
-module.exports.updatePhoneNumber = async (req, res) => {
-    const client = await pool.connect();
-    const {id, phoneNumber} = req.body;
-    try{
-        await SportHallModele.updatePhoneNumber(id, phoneNumber, client);
-        res.sendStatus(204);
-    }catch (error){
-        res.sendStatus(500);
-    } finally {
-        client.release();
-    }
-}
-
-module.exports.updateEmail = async (req, res) => {
-    const client = await pool.connect();
-    const {id, email} = req.body;
-    try{
-        await SportHallModele.updateEmail(id, email, client);
+        await SportHallModele.updateSportHall(id, name, manager, phoneNumber, email, client);
         res.sendStatus(204);
     }catch (error){
         res.sendStatus(500);

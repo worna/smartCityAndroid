@@ -1,5 +1,7 @@
-const {DataTypes} = require('sequelize');
+const {DataTypes, Deferrable} = require('sequelize');
 const sequelize = require('../sequelize');
+const Customer = require('./Customer');
+
 
 const SportHall = sequelize.define('sportHall', {
     id: {
@@ -20,7 +22,7 @@ const SportHall = sequelize.define('sportHall', {
     },
     phoneNumber:{
         type: DataTypes.STRING
-    }
+    },
     email:{
         type: DataTypes.STRING
     }
