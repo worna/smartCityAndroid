@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
-    "initDB": "node scripts/JS/initDB.js"
+    "initDB": "node scripts/JS/initDB.js",
+    "genDoc": "node ./swagger/swagger_jsdoc.js"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +21,7 @@
     "sequelize": "^6.3.5"
   },
   "devDependencies": {
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.6",
+    "swagger-jsdoc": "^6.0.0-rc.3"
   }
 }
