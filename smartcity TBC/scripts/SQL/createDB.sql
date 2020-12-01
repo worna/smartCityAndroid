@@ -15,8 +15,8 @@ CREATE TABLE customer (
     language varchar
 );
 INSERT INTO customer (first_name, last_name, birth_date, gender, phone_number, email, password, inscription_date, is_manager, is_instructor, "language") VALUES
-('Vicky','Zagorski','2000-09-14',1,'0474235689','etu1234@henallux.be','motdepasse', '2020-11-25', 1, 0, 'french'),
-('Arnaud','Lockman','2001-02-07',0,'0474025605','etu40153@henallux.be','password', '2020-11-10', 0, 1, 'english');
+('Vicky','Zagorski','2000-09-14',1,'0474235689','etu1234@henallux.be','$2a$10$vQ1rrXjoPNYhualYPfWlFec41p3JpSQH33B4VwXEyeaUTKmoF4VSy', '2020-11-25', 1, 0, 'french'),
+('Arnaud','Lockman','2001-02-07',0,'0474025605','etu40153@henallux.be','$2a$10$fiKILzSQn2YvA.mbmxhqa.7f8pErrnl4qofZY7nE/a5Vq8KakfPKG', '2020-11-10', 0, 1, 'english');
 
 DROP TABLE IF EXISTS sport_hall CASCADE;
 CREATE TABLE sport_hall (

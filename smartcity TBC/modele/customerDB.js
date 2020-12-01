@@ -1,6 +1,6 @@
-module.exports.createClient = async (client, firstName, lastName, birthDate, gender, phoneNumber, email, password, inscriptionDate, isManager, isInstructor, language) => {
+module.exports.createCustomer = async (client, firstName, lastName, birthDate, gender, phoneNumber, email, password, inscriptionDate, isManager, isInstructor, language) => {
     return await client.query(`
-        INSERT INTO client(first_name, last_name, birth_date, gender, phone_number, email, password, inscription_date, is_manager, is_instructor, language)
+        INSERT INTO customer(first_name, last_name, birth_date, gender, phone_number, email, password, inscription_date, is_manager, is_instructor, language)
         VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)`, [firstName, lastName, birthDate, gender, phoneNumber, email, password, inscriptionDate, isManager, isInstructor, language]
     );
 }
@@ -12,9 +12,9 @@ module.exports.customerExist = async (client, idCustomer) => {
     return rows[0].nbr > 0;
 }
 
-module.exports.getCustomer = async (client, email, password) => {
+module.exports.getCustomer = async (client, email) => {
     return await client.query(`
-        SELECT * FROM customer WHERE email = $1 AND password = $2 AND is_manager = 0 LIMIT 1;`, [email, password]);
+        SELECT * FROM customer WHERE email = $1 AND is_manager = 0 LIMIT 1;`, [email]);
 }
 
 module.exports.updateCustomer = async (client, id, firstName, lastName, birthDate, gender, phoneNumber, email, password, inscriptionDate, isManager, isInstructor, language) => {
