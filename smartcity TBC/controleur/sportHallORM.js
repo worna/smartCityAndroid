@@ -3,6 +3,36 @@ const CustomerORM = require ('../ORM/model/Customer');
 const sequelize = require("../ORM/sequelize");
 const {Sequelize} = require("sequelize");
 
+/**
+ * @swagger
+ * components:
+ *  schemas:
+ *      SportHall:
+ *          type: object
+ *          properties:
+ *              id:
+ *                  type: integer
+ *              name:
+ *                  type: string
+ *                  description: sport hall's name
+ *              manager:
+ *                  type: integer
+ *              phonenumber:
+ *                  type: string
+ *              email:
+ *                  type: string
+ */
+ /**
+ * @swagger
+ * components:
+ *  responses:
+ *      SportHallFound:
+ *           description: send a sport hall
+ *           content:
+ *               application/json:
+ *                   schema:
+ *                       $ref: '#/components/schemas/SportHall'
+ */
 module.exports.getSportHall = async (req, res) => {
     const idTexte = req.params.id;
     const id = parseInt(idTexte);
@@ -22,6 +52,30 @@ module.exports.getSportHall = async (req, res) => {
         res.sendStatus(500);
     }
 }
+
+/**
+ *@swagger
+ *components:
+ *  responses:
+ *      AddSportHall:
+ *          description: The sport hall has been added
+ *  requestBodies:
+ *      SportHallToAdd:
+ *          content:
+ *              application/json:
+ *                  schema:
+ *                      type: object
+ *                      properties:
+ *                          name:
+ *                              type: string
+ *                              description: sportHall's name
+ *                          manager:
+ *                              type: integer
+ *                          phonenumber:
+ *                              type: string
+ *                          email:
+ *                              type: string
+ */
 
 module.exports.postSportHall = async (req, res) => {
     const body = req.body;
@@ -52,6 +106,31 @@ module.exports.postSportHall = async (req, res) => {
     }
 }
 
+/**
+ *@swagger
+ *components:
+ *  responses:
+ *      SportHallUpdated:
+ *          description: The sport hall has been updated
+ *  requestBodies:
+ *      SportHallToUpdate:
+ *          content:
+ *              application/json:
+ *                  schema:
+ *                      type: object
+ *                      properties:
+ *                          id:
+ *                              type: integer
+ *                          name:
+ *                              type: string
+ *                              description: sportHall's name
+ *                          manager:
+ *                              type: integer
+ *                          phonenumber:
+ *                              type: string
+ *                          email:
+ *                              type: string
+ */
 module.exports.updateSportHall = async (req, res) => {
     const {id, name, manager, phone_number, email,} = req.body;
     try{
@@ -74,6 +153,13 @@ module.exports.updateSportHall = async (req, res) => {
     }
 }
 
+/**
+ *@swagger
+ *components:
+ *  responses:
+ *      SportHallDeleted:
+ *          description: The sport hall has been deleted
+ */
 module.exports.deleteSportHall = async (req, res) => {
     const {id} = req.body;
     try{

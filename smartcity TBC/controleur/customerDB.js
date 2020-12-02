@@ -1,7 +1,46 @@
 const pool = require('../modele/database');
 const CustomerDB = require('../modele/customerDB');
 
-
+/**
+ * @swagger
+ *  components:
+ *      responses:
+ *          CustomerUpdated:
+ *              description: The customer has been updated
+ *      requestBodies:
+ *          CustomerToUpdate:
+ *              content:
+ *                  application/json:
+ *                      schema:
+ *                          properties:
+ *                              id:
+ *                                  type: integer
+ *                              firstname:
+ *                                  type: string
+ *                              lastname:
+ *                                  type: string
+ *                              birthdate:
+ *                                  type: string
+ *                                  format: date
+ *                              gender:
+ *                                  type: integer
+ *                              phonenumber:
+ *                                  type: string
+ *                              email:
+ *                                  type: string
+ *                              password:
+ *                                  type: string
+ *                                  format: password
+ *                              inscriptiondate:
+ *                                  type: string
+ *                                  format: date
+ *                              ismanager:
+ *                                  type: integer
+ *                              isinstructor:
+ *                                  type: integer
+ *                              language:
+ *                                  type: string
+ */
 module.exports.updateCustomer = async (req, res) => {
     if(req.session){
         //const clientObj = req.session;
@@ -72,6 +111,56 @@ module.exports.updateCustomer = async (req, res) => {
     }
 };
 
+/**
+ * @swagger
+ *  components:
+ *      responses:
+ *          CustomerAdd:
+ *              description: The customer has been  added to database
+ *      requestBodies:
+ *          CustomerToAdd:
+ *              content:
+ *                  application/json:
+ *                      schema:
+ *                          properties:
+ *                              firstname:
+ *                                  type: string
+ *                              lastname:
+ *                                  type: string
+ *                              birthdate:
+ *                                  type: string
+ *                                  format: date
+ *                              gender:
+ *                                  type: integer
+ *                              phonenumber:
+ *                                  type: string
+ *                              email:
+ *                                  type: string
+ *                              password:
+ *                                  type: string
+ *                                  format: password
+ *                              inscriptiondate:
+ *                                  type: string
+ *                                  format: date
+ *                              ismanager:
+ *                                  type: integer
+ *                              isinstructor:
+ *                                  type: integer
+ *                              language:
+ *                                  type: string
+ *                          required:
+ *                              - firstname
+ *                              - lastname
+ *                              - birthdate
+ *                              - gender
+ *                              - phonenumber
+ *                              - email
+ *                              - password
+ *                              - inscriptiondate
+ *                              - ismanager
+ *                              - isinstructor
+ *                              - language
+ */
 module.exports.inscriptionCustomer = async (req, res) => {
     const lastname = req.body.lastname;
     const firstname = req.body.firstname;

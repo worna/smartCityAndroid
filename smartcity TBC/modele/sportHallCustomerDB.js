@@ -1,7 +1,7 @@
-module.exports.insertSportHallCustomer = async (client, id_sportHall, id_customer) => {
+module.exports.insertSportHallCustomer = async (client, id_sport_hall, id_customer) => {
     return await client.query(`
-        INSERT INTO sportHallCustomer(id_sportHall, id_customer) VALUES
-        ($1, $2)`, [id_sportHall, id_customer]
+        INSERT INTO sport_hall_customer(id_sport_hall, id_customer) VALUES
+        ($1, $2)`, [id_sport_hall, id_customer]
     );
 }
 

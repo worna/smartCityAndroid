@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "dev": "nodemon app.js",
     "initDB": "node scripts/JS/initDB.js",
     "genDoc": "node ./swagger/swagger_jsdoc.js"

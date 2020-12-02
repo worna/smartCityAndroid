@@ -20,23 +20,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85e19ebd-8a53-463b-9665-4e51387c9340" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controleur/userDB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware/IdentificationJWT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modele/userDB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/route/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/365e45e3-1993-48e9-a476-1b78e30a512c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/365e45e3-1993-48e9-a476-1b78e30a512c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/365e45e3-1993-48e9-a476-1b78e30a512c/storage_v2/_src_/database/exercices.i_2O1w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/365e45e3-1993-48e9-a476-1b78e30a512c/storage_v2/_src_/database/exercices.i_2O1w/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/PostgreSQL/virtualbox/action_set_name" beforeDir="false" afterPath="$PROJECT_DIR$/.vagrant/machines/PostgreSQL/virtualbox/action_set_name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/PostgreSQL/virtualbox/id" beforeDir="false" afterPath="$PROJECT_DIR$/.vagrant/machines/PostgreSQL/virtualbox/id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/PostgreSQL/virtualbox/index_uuid" beforeDir="false" afterPath="$PROJECT_DIR$/.vagrant/machines/PostgreSQL/virtualbox/index_uuid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/PostgreSQL/virtualbox/vagrant_cwd" beforeDir="false" afterPath="$PROJECT_DIR$/.vagrant/machines/PostgreSQL/virtualbox/vagrant_cwd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controleur/customerDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/controleur/customerDB.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modele/customerDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/modele/customerDB.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modele/managerDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/modele/managerDB.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controleur/sportHallCustomerORM.js" beforeDir="false" afterPath="$PROJECT_DIR$/controleur/sportHallCustomerORM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controleur/sportHallORM.js" beforeDir="false" afterPath="$PROJECT_DIR$/controleur/sportHallORM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controleur/userDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/controleur/userDB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware/Authorization.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/Authorization.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware/IdentificationJWT.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/IdentificationJWT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modele/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/modele/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modele/sportHallCustomerDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/modele/sportHallCustomerDB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/swagger-jsdoc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/swagger-jsdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/swagger-jsdoc.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/swagger-jsdoc.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jsonwebtoken/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/swagger-jsdoc/.nvmrc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/swagger-jsdoc/.nvmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/swagger-jsdoc/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/swagger-jsdoc/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/swagger-jsdoc/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/swagger-jsdoc/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/swagger-jsdoc/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/swagger-jsdoc/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/swagger-jsdoc/bin/swagger-jsdoc.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/swagger-jsdoc/bin/swagger-jsdoc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/swagger-jsdoc/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/swagger-jsdoc/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/swagger-jsdoc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/swagger-jsdoc/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/swagger-jsdoc/src/lib.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/swagger-jsdoc/src/lib.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/swagger-jsdoc/src/specification.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/swagger-jsdoc/src/specification.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/swagger-jsdoc/src/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/swagger-jsdoc/src/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/route/customer.js" beforeDir="false" afterPath="$PROJECT_DIR$/route/customer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/route/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/route/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/SQL/createDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/SQL/createDB.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/route/sportHall.js" beforeDir="false" afterPath="$PROJECT_DIR$/route/sportHall.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/route/sportHallCustomer.js" beforeDir="false" afterPath="$PROJECT_DIR$/route/sportHallCustomer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/route/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/route/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/swagger/spec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ubuntu-bionic-18.04-cloudimg-console.log" beforeDir="false" afterPath="$PROJECT_DIR$/ubuntu-bionic-18.04-cloudimg-console.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

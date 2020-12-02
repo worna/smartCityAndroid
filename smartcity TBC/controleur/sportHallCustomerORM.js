@@ -69,7 +69,7 @@ module.exports.insertSportHallCustomer = async (req, res) => {
                 throw new Error("Customer id not valid");
             }
             await SportHallCustomerORM.create({
-                id_sportHall: sportHall,
+                id_sport_hall: sportHall,
                 id_customer: customer
             }, {transaction: t});
         });
