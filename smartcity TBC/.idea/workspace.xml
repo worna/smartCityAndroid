@@ -21,40 +21,133 @@
   <component name="ChangeListManager">
     <list default="true" id="85e19ebd-8a53-463b-9665-4e51387c9340" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/365e45e3-1993-48e9-a476-1b78e30a512c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/365e45e3-1993-48e9-a476-1b78e30a512c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/365e45e3-1993-48e9-a476-1b78e30a512c/storage_v2/_src_/database/exercices.i_2O1w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/365e45e3-1993-48e9-a476-1b78e30a512c/storage_v2/_src_/database/exercices.i_2O1w/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/PostgreSQL/virtualbox/action_provision" beforeDir="false" afterPath="$PROJECT_DIR$/.vagrant/machines/PostgreSQL/virtualbox/action_provision" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vagrant/machines/PostgreSQL/virtualbox/action_set_name" beforeDir="false" afterPath="$PROJECT_DIR$/.vagrant/machines/PostgreSQL/virtualbox/action_set_name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vagrant/machines/PostgreSQL/virtualbox/id" beforeDir="false" afterPath="$PROJECT_DIR$/.vagrant/machines/PostgreSQL/virtualbox/id" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vagrant/machines/PostgreSQL/virtualbox/index_uuid" beforeDir="false" afterPath="$PROJECT_DIR$/.vagrant/machines/PostgreSQL/virtualbox/index_uuid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/PostgreSQL/virtualbox/vagrant_cwd" beforeDir="false" afterPath="$PROJECT_DIR$/.vagrant/machines/PostgreSQL/virtualbox/vagrant_cwd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controleur/customerDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/controleur/customerDB.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controleur/sportHallCustomerORM.js" beforeDir="false" afterPath="$PROJECT_DIR$/controleur/sportHallCustomerORM.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controleur/sportHallORM.js" beforeDir="false" afterPath="$PROJECT_DIR$/controleur/sportHallORM.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controleur/userDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/controleur/userDB.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/Authorization.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/Authorization.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/IdentificationJWT.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/IdentificationJWT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/PostgreSQL/virtualbox/private_key" beforeDir="false" afterPath="$PROJECT_DIR$/.vagrant/machines/PostgreSQL/virtualbox/private_key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modele/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/modele/database.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modele/sportHallCustomerDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/modele/sportHallCustomerDB.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/swagger-jsdoc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/swagger-jsdoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/swagger-jsdoc.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/swagger-jsdoc.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jsonwebtoken/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/swagger-jsdoc/.nvmrc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/swagger-jsdoc/.nvmrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/swagger-jsdoc/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/swagger-jsdoc/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/swagger-jsdoc/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/swagger-jsdoc/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/swagger-jsdoc/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/swagger-jsdoc/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/swagger-jsdoc/bin/swagger-jsdoc.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/swagger-jsdoc/bin/swagger-jsdoc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/swagger-jsdoc/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/swagger-jsdoc/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/swagger-jsdoc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/swagger-jsdoc/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/swagger-jsdoc/src/lib.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/swagger-jsdoc/src/lib.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/swagger-jsdoc/src/specification.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/swagger-jsdoc/src/specification.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/swagger-jsdoc/src/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/swagger-jsdoc/src/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/route/customer.js" beforeDir="false" afterPath="$PROJECT_DIR$/route/customer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/route/sportHall.js" beforeDir="false" afterPath="$PROJECT_DIR$/route/sportHall.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/route/sportHallCustomer.js" beforeDir="false" afterPath="$PROJECT_DIR$/route/sportHallCustomer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/route/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/route/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger/spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/swagger/spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nodemon" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/nodemon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nodemon.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/nodemon.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bcrypt/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bcrypt/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/express.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/express.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/middleware/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/middleware/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/middleware/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/middleware/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/response.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/response.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/router/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/layer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/router/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/.jshintrc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/.jshintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/bin/nodemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/bin/nodemon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/bin/postinstall.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/bin/postinstall.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/commitlint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/commitlint.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/authors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/authors.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/config.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/help.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/help.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/logo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/logo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/topics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/topics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/usage.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/usage.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/whoami.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/whoami.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/cli/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/cli/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/cli/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/cli/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/command.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/command.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/defaults.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/defaults.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/exec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/exec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/load.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/load.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/help/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/help/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/match.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/match.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/run.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/signals.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/signals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/watch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/nodemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/nodemon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/spawn.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/spawn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/bus.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/bus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/clone.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/clone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/colour.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/colour.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/log.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/log.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/merge.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/merge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/version.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/version.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/.bin/semver.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/.bin/semver.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/bin/semver.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/bin/semver.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/classes/comparator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/classes/comparator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/classes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/classes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/classes/range.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/classes/range.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/classes/semver.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/classes/semver.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/clean.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/clean.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/cmp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/cmp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/coerce.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/coerce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/compare-build.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/compare-build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/compare-loose.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/compare-loose.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/compare.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/compare.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/diff.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/diff.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/eq.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/eq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/gt.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/gt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/gte.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/gte.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/inc.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/inc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/lt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/lte.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/lte.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/major.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/major.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/minor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/minor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/neq.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/neq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/patch.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/patch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/prerelease.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/prerelease.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/rcompare.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/rcompare.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/rsort.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/rsort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/satisfies.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/satisfies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/sort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/valid.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/functions/valid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/internal/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/internal/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/internal/debug.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/internal/debug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/internal/identifiers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/internal/identifiers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/internal/re.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/internal/re.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/preload.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/preload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/range.bnf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/range.bnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/gtr.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/gtr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/intersects.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/intersects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/ltr.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/ltr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/max-satisfying.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/max-satisfying.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/min-satisfying.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/min-satisfying.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/min-version.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/min-version.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/outside.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/outside.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/simplify.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/simplify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/subset.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/subset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/to-comparators.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/to-comparators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/valid.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/ranges/valid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/JS/initDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/JS/initDB.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ubuntu-bionic-18.04-cloudimg-console.log" beforeDir="false" afterPath="$PROJECT_DIR$/ubuntu-bionic-18.04-cloudimg-console.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,15 +211,21 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606481789410">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="-94" y="118" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607070695308">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1606468887101" />
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1606481789410" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1606337240410">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="-94" y="118" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1607070695308" />
+    <state x="521" y="135" key="FileChooserDialogImpl" timestamp="1607067886468">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1606337240410" />
+    <state x="521" y="135" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607067886468" />
+    <state width="203" height="457" key="HiddenNamespacesPopup" timestamp="1607067905559">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="203" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1607067905559" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1606337211794">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
