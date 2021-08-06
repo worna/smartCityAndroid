@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/activity_horizontal_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginEnd="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:background="#DCE3E4"
+    tools:context=".ui.home.HomeFragment">
+
+    <ImageView
+        android:id="@+id/login_logo"
+        android:layout_width="178dp"
+        android:layout_height="178dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/sportoo_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="25dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="25dp">
+
+            <ImageView
+                android:id="@+id/dark_mode_logo"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/dark_mode_logo" />
+
+            <TextView
+                android:id="@+id/dark_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:gravity="center_vertical"
+                android:text="Dark mode"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <Switch
+                android:id="@+id/dark_mode_option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="25dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="25dp">
+
+            <ImageView
+                android:id="@+id/notif_logo"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/notif_logo" />
+
+            <TextView
+                android:id="@+id/notif"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:gravity="center_vertical"
+                android:text="Notifications"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <Switch
+                android:id="@+id/notif_option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="25dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="25dp">
+
+            <ImageView
+                android:id="@+id/language_logo"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/language_logo" />
+
+            <TextView
+                android:id="@+id/language"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:gravity="center_vertical"
+                android:text="Language"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <Switch
+                android:id="@+id/language_option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="25dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="25dp">
+
+            <ImageView
+                android:id="@+id/visibility_logo"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/visibility_logo" />
+
+            <TextView
+                android:id="@+id/visibility"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:gravity="center_vertical"
+                android:text="Visibility"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <Switch
+                android:id="@+id/visibility_option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="25dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="25dp">
+
+            <ImageView
+                android:id="@+id/security_logo"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/security_logo" />
+
+            <TextView
+                android:id="@+id/security"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:gravity="center_vertical"
+                android:text="Security"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <Switch
+                android:id="@+id/security_option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="25dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="25dp">
+
+            <ImageView
+                android:id="@+id/about_us_logo"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/about_us_logo" />
+
+            <TextView
+                android:id="@+id/about_us"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:gravity="center_vertical"
+                android:text="About us"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <Switch
+                android:id="@+id/about_us_option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
