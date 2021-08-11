@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_home"
+        android:enabled="true"
+        android:icon="@drawable/home_logo"
+        android:title="Accueil"
+        />
+    <item
+        android:id="@+id/menu_item_search"
+        android:enabled="true"
+        android:icon="@drawable/search_logo"
+        android:title="Recherche"/>
+    <item
+        android:id="@+id/menu_item_courses"
+        android:enabled="true"
+        android:icon="@drawable/courses_logo"
+        android:title="Mes cours"/>
+    <item
+        android:id="@+id/menu_item_profile"
+        android:enabled="true"
+        android:icon="@drawable/profile_logo"
+        android:title="Profil"/>
+    <item
+        android:id="@+id/menu_item_settings"
+        android:enabled="true"
+        android:icon="@drawable/settings_logo"
+        android:title="Paramètres"/>
+</menu>
