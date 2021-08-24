@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/course_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/sport_hall_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:filterTouchesWhenObscured="false"
+            android:scaleType="centerCrop"
+            android:src="@drawable/yoga"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/sport_hall_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent_blue"
+            android:text="@string/sport_hall_name"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size_headline_1"
+            app:layout_constraintBottom_toBottomOf="@id/sport_hall_image" />
+
+        <TextView
+            android:id="@+id/sport_hall_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:text="@string/sport_hall_address"
+            android:textAlignment="center"
+            app:layout_constraintTop_toBottomOf="@id/sport_hall_name" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

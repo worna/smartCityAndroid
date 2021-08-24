@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#DCE3E4</color>
+    <color name="night_background">#131313</color>
+    <color name="transparent_blue">#D7B2EBF2</color>
+    <color name="blue">#B2EBF2</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="transparent_blue_50">#80B2EBF2</color>
+    <color name="link">#0B7159</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#D33C3C</color>
+</resources>

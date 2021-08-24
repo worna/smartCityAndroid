@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="SportooTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#1A6971</item>
+        <item name="colorAccent">#35C1BC</item>
+        <!-- Secondary brand color. -->
+
+        <item name="android:background">@color/background</item>
+
+    </style>
+    <style name="SportooTheme.Button" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#77d6e9</item>
+        <item name="colorOnPrimary">#000000</item>
+    </style>
+    <style name="SportooTheme.SecondaryButton" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#F1F1F1</item>
+        <item name="colorOnPrimary">#000000</item>
+    </style>
+    <style name="SportooTheme.BottomNavigation" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:background">@color/transparent_blue</item>
+        <item name="colorPrimary">@color/black</item>
+    </style>
+
+    <style name="SportooTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SportooTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">@color/transparent_blue</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+</resources>

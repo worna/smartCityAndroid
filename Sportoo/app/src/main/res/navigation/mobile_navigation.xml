@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/homeFragment">
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.worna.sportoo.ui.search.SearchFragment"
+        android:label="search_fragment"
+        tools:layout="@layout/search_fragment">
+        <action
+            android:id="@+id/action_searchFragment_to_searchFragmentSportHall"
+            app:destination="@id/searchFragmentSportHall" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragmentSportHall"
+        android:name="com.worna.sportoo.ui.search.SearchSportHallFragment"
+        android:label="search_fragment_sport_hall"
+        tools:layout="@layout/search_sport_hall_fragment">
+        <argument
+            android:name="id"
+            app:argType="integer" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="address"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_searchFragmentSportHall_to_searchCoursesFragment"
+            app:destination="@id/searchCoursesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/coursesFragment"
+        android:name="com.worna.sportoo.ui.courses.CoursesFragment"
+        android:label="courses_fragment"
+        tools:layout="@layout/courses_fragment">
+        <action
+            android:id="@+id/action_coursesFragment_to_searchCourseFragment"
+            app:destination="@id/searchCourseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.worna.sportoo.ui.home.HomeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/home_fragment">
+        <action
+            android:id="@+id/action_homeFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.worna.sportoo.ui.settings.SettingsFragment"
+        android:label="settings_fragment"
+        tools:layout="@layout/settings_fragment">
+        <action
+            android:id="@+id/action_settingsFragment_to_notImplementedFragment"
+            app:destination="@id/notImplementedFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_aboutUsFragment"
+            app:destination="@id/aboutUsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.worna.sportoo.ui.profile.ProfileFragment"
+        android:label="profile_fragment"
+        tools:layout="@layout/profile_fragment" />
+    <fragment
+        android:id="@+id/searchCoursesFragment"
+        android:name="com.worna.sportoo.ui.search.SearchCoursesFragment"
+        android:label="search_course_fragment"
+        tools:layout="@layout/search_courses_fragment">
+        <action
+            android:id="@+id/action_searchCoursesFragment_to_searchCourseFragment"
+            app:destination="@id/searchCourseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.worna.sportoo.ui.map.MapFragment"
+        android:label="map_fragment"
+        tools:layout="@layout/map_fragment" />
+    <fragment
+        android:id="@+id/notImplementedFragment"
+        android:name="com.worna.sportoo.ui.notImplemented.NotImplementedFragment"
+        android:label="not_implemented_fragment"
+        tools:layout="@layout/not_implemented_fragment" />
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.worna.sportoo.ui.aboutUs.AboutUsFragment"
+        android:label="about_us_fragment"
+        tools:layout="@layout/about_us_fragment" />
+    <fragment
+        android:id="@+id/searchCourseFragment"
+        android:name="com.worna.sportoo.ui.search.SearchCourseFragment"
+        android:label="search_course_fragment"
+        tools:layout="@layout/search_course_fragment" />
+
+</navigation>

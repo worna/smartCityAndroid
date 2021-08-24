@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Sportoo</string>
+
+
+    <string name="login">Login</string>
+    <string name="login_message">Connect to my athlete account</string>
+    <string name="logout">Logout</string>
+    <string name="register"><u>Register</u></string>
+    <string name="register_message">Create an athlete account</string>
+    <string name="already_member">I\'m already a member</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="subscribe">Subscribe</string>
+    <string name="unsubscribe">Unsubscribe</string>
+
+    <string name="courses">Courses</string>
+    <string name="course_register">Subscribe in the course</string>
+    <string name="course_name">Course name</string>
+    <string name="course_date">Course date</string>
+    <string name="course_start_date">Course starting date</string>
+    <string name="course_end_date">Course ending date</string>
+    <string name="course_level">Course level</string>
+    <string name="course_room">Course room</string>
+    <string name="course_address">Course address</string>
+    <string name="course_capacity">Course capacity</string>
+    <string name="course_information">Course information</string>
+
+    <string name="account_personal_information">Personal information</string>
+    <string name="account_first_name">First name</string>
+    <string name="account_last_name">Last name</string>
+    <string name="account_phone">Phone</string>
+    <string name="account_email">Email</string>
+    <string name="account_password">Password</string>
+    <string name="account_confirm_password">Confirm password</string>
+    <string name="account_birthdate">Birthdate</string>
+    <string name="account_gender">Gender</string>
+    <string name="account_gender_man">Man</string>
+    <string name="account_gender_woman">Woman</string>
+    <string name="account_gender_other">Other</string>
+    <string name="account_address">Address</string>
+    <string name="account_zip_code">Zip code</string>
+    <string name="account_city">City</string>
+    <string name="account_country">Country</string>
+    <string name="account_language">Language</string>
+
+    <string name="search_sport_hall">Search sport hall</string>
+    <string name="sport_hall_name">Sport hall name</string>
+    <string name="sport_hall_register">Register to the sport hall</string>
+    <string name="sport_hall_courses">Courses</string>
+    <string name="no_sport_hall_course_registered">This sport hall has no upcoming courses.</string>
+
+    <string name="sport_hall_prices">Prices</string>
+    <string name="sport_hall_information">Sport hall information</string>
+    <string name="sport_hall_email">Email</string>
+    <string name="sport_hall_phone">Phone</string>
+    <string name="sport_hall_address">Address</string>
+
+    <string name="settings_dark_mode">Dark mode</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_visibility">Visibility</string>
+    <string name="settings_security">Security</string>
+    <string name="settings_about_us">About us</string>
+    <string name="not_implemented">We\'re sorry, this feature has not yet been implemented. It should be available in the next update.</string>
+
+    <string name="about_us">We are a sports course booking application for different gyms. Currently located in Namur, we are going to expand in Wallonia and then throughout the world.</string>
+    <string name="about_us_creators">Creators : \n ZAGORSKI Vicky and LOCKMAN Arnaud</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_courses">My courses</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="no_course_registered">You are not registered for any course</string>
+
+    <string name="valid_registration">Thank you for registering on our Sportoo application. Thanks to it you will be able to book your lessons more easily and quickly.</string>
+
+    <string-array name="language_array">
+        <item>English</item>
+        <item>Français</item>
+    </string-array>
+
+    <string-array name="gender_array">
+        <item>Man</item>
+        <item>Woman</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="http_no_connection">No data : Check your internet connection</string>
+
+    <!-- Errors -->
+    <string name="technical_error">An unknown error happened : Try again</string>
+    <string name="request_error">An error occurred during your request</string>
+    <string name="field_error_mandatory">Mandatory field</string>
+    <string name="field_error_future">Are you from the future?</string>
+    <string name="field_error_dinosaur">Are you a dinosaur?</string>
+    <string name="field_error_bad_format">Format : dd/mm/yyyy</string>
+    <string name="field_error_password">Should contain et lease 1 capital char, 1 lower char and 1 number</string>
+    <string name="field_error_email">Invalid email format</string>
+    <string name="field_error_phone">Invalide phone number format</string>
+    <string name="field_error_matching">Confirmation is not the same</string>
+    <string name="field_error_size">Should have a length be between  %1$d and %2$d</string>
+    <string name="not_found">Not found</string>
+</resources>

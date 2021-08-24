@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@id/homeFragment"
+            android:icon="@drawable/home_logo"
+            android:title="@string/menu_home"/>
+        <item
+            android:id="@id/searchFragment"
+            android:icon="@drawable/search_logo"
+            android:title="@string/menu_search"/>
+        <item
+            android:id="@id/coursesFragment"
+            android:icon="@drawable/courses_logo"
+            android:title="@string/menu_courses"/>
+        <item
+            android:id="@id/profileFragment"
+            android:icon="@drawable/profile_logo"
+            android:title="@string/menu_profile"/>
+        <item
+            android:id="@id/settingsFragment"
+            android:icon="@drawable/settings_logo"
+            android:title="@string/menu_settings"/>
+    </group>
+</menu>
